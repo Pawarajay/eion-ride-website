@@ -468,7 +468,7 @@ export default function BookingPage() {
         </div>
 
         {/* Maintenance Alert Banner */}
-        <div className="mb-3 p-3.5 bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-300 rounded-xl shadow-sm">
+        {/* <div className="mb-3 p-3.5 bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-300 rounded-xl shadow-sm">
           <div className="flex items-start gap-3">
             <div className="p-2 bg-amber-100/80 rounded-lg text-amber-700 flex-shrink-0 mt-0.5">
               <Wrench className="w-5 h-5 text-amber-600 animate-bounce" />
@@ -504,7 +504,7 @@ export default function BookingPage() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Locations */}
         <Card className="p-3 mb-2">

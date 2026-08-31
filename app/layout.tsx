@@ -42,12 +42,12 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen bg-white text-left antialiased relative">
         {/* Fixed Top-Right Red Opaque Maintenance Ribbon (Full Text Visible) */}
-        <div className="fixed top-0 right-0 z-[9999] pointer-events-none overflow-hidden w-48 h-48 sm:w-56 sm:h-56">
+        {/* <div className="fixed top-0 right-0 z-[9999] pointer-events-none overflow-hidden w-48 h-48 sm:w-56 sm:h-56">
           <div className="absolute top-9 -right-16 sm:top-11 sm:-right-16 w-64 sm:w-72 rotate-45 bg-gradient-to-r from-red-700 via-red-600 to-rose-700 text-white font-black text-[10px] sm:text-[11px] tracking-wider py-1.5 sm:py-2 text-center shadow-2xl uppercase border-y-2 border-amber-300 pointer-events-auto flex items-center justify-center gap-1.5 select-none shadow-red-950/40">
             <span className="w-2 h-2 rounded-full bg-amber-300 animate-ping inline-block flex-shrink-0" />
             <span className="whitespace-nowrap">Under Maintenance</span>
           </div>
-        </div>
+        </div> */}
 
         <Suspense fallback={<div>Loading...</div>}>
           <AuthProvider>
